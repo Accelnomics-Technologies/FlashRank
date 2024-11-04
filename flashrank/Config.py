@@ -1,6 +1,7 @@
 # Moved to HF - My cloud bucket and $ wont be abused anymore :-)
 # THE HF Repo is UNDER CC-BY-SA LICENSE. USE APPROPRIATELY.
-model_url = 'https://huggingface.co/prithivida/flashrank/resolve/main/{}.zip'
+#model_url = 'https://huggingface.co/prithivida/flashrank/resolve/main/{}.zip'
+model_url = 'https://huggingface.co/Automatise/ms-marco-MiniLM-L-6-v2/resolve/main/{}.zip'
 listwise_rankers = {'rank_zephyr_7b_v1_full'}
 
 default_cache_dir = "/tmp"
@@ -12,6 +13,7 @@ model_file_map = {
     "rank-T5-flan": "flashrank-rankt5_Q.onnx",
     "ce-esci-MiniLM-L12-v2": "flashrank-ce-esci-MiniLM-L12-v2_Q.onnx",
     "rank_zephyr_7b_v1_full": "rank_zephyr_7b_v1_full.Q4_K_M.gguf",
-    "miniReranker_arabic_v1": "miniReranker_arabic_v1.onnx"
+    "miniReranker_arabic_v1": "miniReranker_arabic_v1.onnx",
+    "ms-marco-MiniLM-L-6-v2": "flashrank-MiniLM-L-6-v2_Q.onnx"
 }
 
